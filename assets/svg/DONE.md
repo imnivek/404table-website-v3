@@ -1,0 +1,24 @@
+# SVG Delivery Done
+
+- course-ai.svg: Deep green course thumbnail with torn paper layers, head silhouette, AI text, network nodes, prompt card, and cursor path.
+- course-data.svg: Dashboard collage with bar chart, line chart, magnifier, and data points moving upward.
+- course-brand.svg: Cream paper base with coral torn paper, megaphone, social bubble, sticky note, and hand-drawn arrow.
+- course-finance.svg: Gold-led finance scene with calculator, pitch deck, rising arrow, charts, and coin stacks.
+- course-design.svg: Forest green design thinking collage with bulb, sticky notes, flow arrow, and collaboration marks.
+- course-nocode.svg: Dark green no-code scene with IF/THEN blocks, connected nodes, gear-like ring, and cursor.
+- entry-courses.svg: Transparent entry illustration with laptop, books, AI spark, and classroom window.
+- entry-spaces.svg: Transparent entry illustration with calendar, tables, chairs, location pin, and time chips.
+- entry-startup.svg: Transparent entry illustration with rocket, rising arrow, network nodes, and form card.
+- value-learn.svg: Minimal stroke icon showing an open book and spark.
+- value-space.svg: Minimal stroke icon showing a shared table and chair frame.
+- value-startup.svg: Minimal stroke icon showing a rocket and rising arrow.
+- value-community.svg: Minimal stroke icon showing three connected people.
+- value-future.svg: Minimal stroke icon showing a globe, horizon, and eye motif.
+- deco-torn-shape.svg: Coral torn-paper polygon with gold inner layer and dashed hand line.
+- deco-dashed-ring.svg: Cyan dashed ring with inner gold ring and dot matrix.
+- deco-gold-burst.svg: Gold eight-point burst with deeper gold layer and cream center.
+- deco-tech-lines.svg: Cyan tech-line grid with light points and cursor trail.
+- flow-01-apply.svg: Flow step illustration with document and pen over warm paper collage.
+- flow-02-review.svg: Flow step illustration with document, magnifier, and dashed review path.
+- flow-03-interview.svg: Flow step illustration with two people and a speech bubble.
+- flow-04-join.svg: Flow step illustration with open door and entering arrow.

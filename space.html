@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>實體空間｜404TABLE｜共創基地 · 會議室 · 活動空間</title>
+<meta name="description" content="明亮有質感的共創空間：主教室、會議室、訪談室、交誼桌與茶水間。駐點、開會、辦活動一次滿足，歡迎預約參觀。" />
+<link rel="icon" href="assets/brand/logo-black.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="navbar">
+    <a class="nav-logo" href="index.html"><img src="assets/brand/logo-black.png" alt="404TABLE"></a>
+    <nav class="nav-links">
+      <a href="index.html">首頁</a><a href="courses.html">學程</a><a href="kids.html">未來素養</a><a href="founders.html">創業孵化</a><a href="space.html" class="active">空間</a><a href="events.html">活動</a><a href="about.html">關於</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-outline" href="about.html#contact">聯絡我們</a>
+      <button class="btn btn-primary btn-arrow" data-modal-open="visit-modal">預約參觀</button>
+      <button class="mobile-toggle" id="menu-open" aria-label="選單"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobile-drawer">
+  <a href="index.html">首頁</a><a href="courses.html">學程</a><a href="kids.html">未來素養</a><a href="founders.html">創業孵化</a><a href="space.html">空間</a><a href="events.html">活動</a><a href="about.html">關於</a>
+  <a class="dr-cta" href="#" data-modal-open="visit-modal">預約參觀</a>
+</div>
+
+<main>
+<!-- HERO（雙圖拼貼） -->
+<section class="hero">
+  <div class="container hero-split">
+    <div class="hero-copy reveal">
+      <span class="pill" style="background:var(--coral);color:#fff">CO-CREATION SPACE</span>
+      <h1 style="margin-top:18px">專注在美好事物，<br/><span class="accent">讓夢想發生</span></h1>
+      <p class="lead">404TABLE 為你打造舒適專業、具設計質感的共創環境。省去裝潢與打理成本，讓你輕鬆專注於真正重要的事。</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-arrow" data-modal-open="visit-modal">立即預約參觀</button>
+        <a class="btn btn-outline" href="tel:0223456789"><span class="material-symbols-outlined" style="font-size:19px">call</span> 02-2345-6789</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal" style="height:440px">
+      <div class="hc-shape s2"><img src="assets/svg/deco-dashed-ring.svg" alt=""></div>
+      <div class="hc-card hc-1" style="width:66%;height:66%"><img src="assets/space/space-main.jpg" alt="404TABLE 主空間教室"></div>
+      <div class="hc-card hc-3" style="width:52%;height:46%;right:0;bottom:0"><img src="assets/space/space-lounge.jpg" alt="交誼桌"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 六大空間 -->
+<section class="sec">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <span class="eyebrow">SPACE CATALOG</span>
+        <h2 class="section-title">六大區域，一應俱全</h2>
+      </div>
+      <p class="section-sub">明亮有質感的風格裝潢，辦公、上課、開會、活動空間自由切換。</p>
+    </div>
+    <div class="space-grid">
+      <div class="space-card reveal">
+        <div class="ph"><img src="assets/space/space-main.jpg" alt="主空間教室"></div>
+        <div class="info">
+          <h3>主空間教室</h3>
+          <p class="desc">適合教育訓練、大型講座、發表會與聚會。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>4K 投影 + 麥克風音響</li><li><span class="material-symbols-outlined">check_circle</span>可容納 30–40 人，桌椅彈性配置</li></ul>
+          <button class="btn btn-outline btn-arrow" data-modal-open="visit-modal" data-title="主空間教室">詢問檔期與報價</button>
+        </div>
+      </div>
+      <div class="space-card reveal">
+        <div class="ph"><img src="assets/space/space-meeting.jpg" alt="大會議室"></div>
+        <div class="info">
+          <h3>大會議室</h3>
+          <p class="desc">正式或休閒風格的會議型態都能滿足。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>容納 8–12 人</li><li><span class="material-symbols-outlined">check_circle</span>高畫質螢幕 + 視訊會議</li></ul>
+          <button class="btn btn-secondary btn-arrow" data-modal-open="visit-modal" data-title="大會議室">立即預約</button>
+        </div>
+      </div>
+      <div class="space-card reveal">
+        <div class="ph"><img src="assets/space/space-interview.jpg" alt="訪談室"></div>
+        <div class="info">
+          <h3>訪談室 / 獨立空間</h3>
+          <p class="desc">面試、訪談、Podcast 錄製、一對一諮詢專屬。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>良好隔音、安靜不受打擾</li><li><span class="material-symbols-outlined">check_circle</span>2–4 人舒適座位</li></ul>
+          <button class="btn btn-outline btn-arrow" data-modal-open="visit-modal" data-title="訪談室">會員可預約</button>
+        </div>
+      </div>
+      <div class="space-card reveal">
+        <div class="ph"><img src="assets/space/space-lounge.jpg" alt="交誼桌"></div>
+        <div class="info">
+          <h3>交誼桌 / 共用區</h3>
+          <p class="desc">長桌共用區，駐點工作、社群交流、輕鬆協作。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>高速網路、插座充足</li><li><span class="material-symbols-outlined">check_circle</span>彈性入座、自由協作</li></ul>
+          <button class="btn btn-outline btn-arrow" data-modal-open="visit-modal" data-title="交誼桌 / 共用區">了解駐點方案</button>
+        </div>
+      </div>
+      <div class="space-card reveal">
+        <div class="ph"><img src="assets/space/space-pantry.jpg" alt="茶水間"></div>
+        <div class="info">
+          <h3>茶水間 / Pantry</h3>
+          <p class="desc">咖啡茶飲、冰箱、簡單備餐，休息與交流的角落。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>免費現磨咖啡、多款茶飲</li><li><span class="material-symbols-outlined">check_circle</span>冰箱、飲水、備品齊全</li></ul>
+          <button class="btn btn-outline btn-arrow" data-modal-open="visit-modal" data-title="茶水間">會員免費使用</button>
+        </div>
+      </div>
+      <div class="space-card dark reveal">
+        <div class="ph icon-ph"><span class="material-symbols-outlined">mail</span></div>
+        <div class="info">
+          <h3>信件代收 / 借址登記</h3>
+          <p class="desc">公司登記地址、郵件代收，創業初期的最佳起點。</p>
+          <ul class="feat-list"><li><span class="material-symbols-outlined">check_circle</span>月租 NT$1,800 / 年繳 NT$21,600</li><li><span class="material-symbols-outlined">check_circle</span>郵件代收、到件通知</li></ul>
+          <button class="btn btn-primary btn-arrow" data-modal-open="visit-modal" data-title="借址登記服務">了解借址服務</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 三種使用方式 -->
+<section class="sec band-green">
+  <div class="container">
+    <div class="center reveal" style="margin-bottom:44px">
+      <h2 class="section-title" style="color:#fff">三種使用方式，彈性進駐</h2>
+      <p style="opacity:.8;margin-top:12px">依工作模式、人數、需求，選擇最適合你的方案。</p>
+    </div>
+    <div class="tier-grid">
+      <div class="tier reveal">
+        <span class="ribbon">MEMBER</span>
+        <h3>會員駐點</h3>
+        <div class="ttype">單日 / 月租彈性選擇</div>
+        <div class="price">NT$350 <span>/ 日起</span></div>
+        <ul><li>• 開放式共用空間，自由入座</li><li>• 高速網路、插座、免費咖啡茶水</li><li>• 學程會員 / Founders Fellow 免費使用</li></ul>
+        <button class="btn btn-secondary btn-arrow" style="width:100%" data-modal-open="visit-modal" data-title="會員駐點方案">了解駐點</button>
+      </div>
+      <div class="tier feature reveal">
+        <span class="ribbon">BOOKING</span>
+        <h3>會議室租借</h3>
+        <div class="ttype">小時計費，會員享 8 折</div>
+        <div class="price">NT$900 <span>/ 小時起</span></div>
+        <ul><li>• 投影 / 螢幕、白板、視訊設備</li><li>• 主教室、大會議室、訪談室任選</li><li>• 線上預約、即時確認檔期</li></ul>
+        <button class="btn btn-primary btn-arrow" style="width:100%" data-modal-open="visit-modal" data-title="會議室租借">立即預約</button>
+      </div>
+      <div class="tier reveal">
+        <span class="ribbon" style="background:var(--cyan);color:var(--green-900)">MAILING</span>
+        <h3>借址登記服務</h3>
+        <div class="ttype">公司登記 + 郵件代收</div>
+        <div class="price">NT$1,800 <span>/ 月</span></div>
+        <ul><li>• 提供公司登記地址</li><li>• 郵件代收與到件通知</li><li>• 年繳 NT$21,600，創業最划算起點</li></ul>
+        <button class="btn btn-secondary btn-arrow" style="width:100%" data-modal-open="visit-modal" data-title="借址登記服務">了解借址</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 為何選我們 -->
+<section class="sec">
+  <div class="container">
+    <div class="feature-split">
+      <div class="reveal">
+        <h2 class="section-title" style="margin-bottom:34px">為何 404TABLE，<br/>是<span class="accent coral">最適合創作者</span>的空間</h2>
+        <div class="why-grid">
+          <div class="why"><span class="material-symbols-outlined">location_on</span><div><h4>絕佳位置</h4><p>鄰近捷運與文創園區，交通便利、生活機能完整。</p></div></div>
+          <div class="why"><span class="material-symbols-outlined">air</span><div><h4>清新空氣</h4><p>醫療級空氣清淨、多面採光、通風舒適。</p></div></div>
+          <div class="why"><span class="material-symbols-outlined">coffee</span><div><h4>茶水供應</h4><p>免費現磨咖啡、多款茶飲、不定期零食。</p></div></div>
+          <div class="why"><span class="material-symbols-outlined">groups</span><div><h4>創意社群</h4><p>匯集各界職人與創業者，定期舉辦交流活動。</p></div></div>
+        </div>
+      </div>
+      <div class="fs-media reveal">
+        <div class="fs-frame r"><img src="assets/space/space-main-2.jpg" alt="工作空間"></div>
+        <div class="fs-tagfloat" style="left:-18px;bottom:-18px;background:var(--gold);color:var(--green-900)">Google 評價 4.8★<br><span style="font-weight:600;font-size:12px;opacity:.8">創作者口碑推薦</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 評價 -->
+<section class="sec band-cream">
+  <div class="container">
+    <div class="section-header reveal" style="align-items:center">
+      <div style="display:flex;align-items:center;gap:14px"><span class="material-symbols-outlined" style="color:var(--coral);font-size:38px">format_quote</span><h2 class="section-title">創作者的真心話</h2></div>
+    </div>
+    <div class="quote-grid">
+      <div class="quote reveal"><p>「每次有訪客來開會，都會羨慕地說也想在這裡上班。空間的質感，讓我們的品牌加分不少。」</p><div class="by"><div class="ava" style="background:var(--green-900)">徐</div><div><h4>徐先生</h4><span>新創品牌共同創辦人</span></div></div></div>
+      <div class="quote reveal"><p>「環境舒服、人也很好，最適合需要安靜專注又想偶爾交流的工作者。強力推薦給接案族與小團隊。」</p><div class="by"><div class="ava" style="background:var(--coral)">L</div><div><h4>Lydia</h4><span>自由接案設計師</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec" style="padding-bottom:90px">
+  <div class="container">
+    <div class="accent-panel solid-green reveal" style="display:block;text-align:center">
+      <h2 style="margin:0 auto 14px;max-width:none">準備好開始你的創作旅程嗎？</h2>
+      <p style="margin:0 auto 30px">只需帶著你的筆電，其餘的交給我們。來參觀吧，感受有溫度的共創空間。</p>
+      <div style="display:flex;gap:22px;justify-content:center;align-items:center;flex-wrap:wrap">
+        <button class="btn btn-primary btn-lg btn-arrow" data-modal-open="visit-modal">立即預約參觀</button>
+        <a href="tel:0223456789" class="mono" style="font-size:26px;font-weight:700;color:var(--gold)">02-2345-6789</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- 預約 Modal -->
+<div id="visit-modal" class="modal-backdrop">
+  <div class="modal">
+    <button class="modal-close" data-modal-close aria-label="關閉"><span class="material-symbols-outlined">close</span></button>
+    <div class="modal-header"><span class="eyebrow">空間預約 / 詢問</span><h2 data-fill-title>預約參觀</h2></div>
+    <div class="modal-body">
+      <form data-fake-submit data-success="已收到預約！我們會盡快與你確認時間與檔期。">
+        <input type="hidden" name="項目"/>
+        <div class="form-row"><div class="form-field full"><label class="form-label">姓名 *</label><input required class="form-input" type="text" placeholder="王小明"></div></div>
+        <div class="form-row">
+          <div class="form-field"><label class="form-label">Email *</label><input required class="form-input" type="email" placeholder="you@email.com"></div>
+          <div class="form-field"><label class="form-label">手機 *</label><input required class="form-input" type="tel" placeholder="0912-345-678"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-field"><label class="form-label">需求類型</label><select class="form-select"><option>預約參觀</option><option>會議室租借</option><option>會員駐點</option><option>借址登記</option><option>活動 / 包場</option></select></div>
+          <div class="form-field"><label class="form-label">期望日期</label><input class="form-input" type="date"></div>
+        </div>
+        <div class="form-row"><div class="form-field full"><label class="form-label">備註</label><textarea class="form-textarea" placeholder="使用人數、時段、特殊需求…"></textarea></div></div>
+        <button class="btn btn-secondary btn-arrow modal-submit" type="submit">送出預約</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/brand/logo-white.png" alt="404TABLE">
+        <p>AI 教育 × 共創空間 × 創業加速。在這裡，讓學習、空間與創業發光連結。</p>
+        <div class="addr">台北市信義區基隆路一段 404 號 4 樓<br>service@404table.com｜02-2345-6789</div>
+      </div>
+      <div class="foot-col"><h5>學習</h5><ul><li><a href="courses.html">學程總覽</a></li><li><a href="founders.html">404 Founders</a></li><li><a href="events.html">活動消息</a></li></ul></div>
+      <div class="foot-col"><h5>關於</h5><ul><li><a href="space.html">實體空間</a></li><li><a href="about.html">關於我們</a></li><li><a href="about.html#contact">聯絡 / 企業包班</a></li></ul></div>
+      <div class="foot-col foot-sub"><h5>訂閱電子報</h5>
+        <form data-fake-submit data-success="訂閱成功！第一封信很快會到你的信箱。"><input type="email" required placeholder="your@email.com"><button type="submit">GO</button></form>
+        <p>每週一篇 AI 工作流 essay，不寄垃圾信。</p>
+      </div>
+    </div>
+    <div class="foot-bot"><span>© 2026 404TABLE｜肆方創育股份有限公司</span><span style="display:flex;gap:22px"><a href="#">隱私權政策</a><a href="#">服務條款</a><a href="#">退費政策</a></span></div>
+  </div>
+</footer>
+</body>
+</html>

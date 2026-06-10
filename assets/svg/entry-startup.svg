@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+<polygon points="41,76 157,40 250,98 226,239 62,255" fill="#EFE3D1"/>
+<path d="M137 182c-28-31 0-89 56-123 11 64-13 117-56 123z" fill="#F6F3EB" stroke="#111111" stroke-width="5"/>
+<path d="M164 88l31 31" stroke="#00BFC2" stroke-width="6" stroke-linecap="round"/><circle cx="176" cy="101" r="12" fill="#F2C14E" stroke="#111111" stroke-width="4"/>
+<path d="M136 182l-30 28 15-44zM155 188l-3 43 28-31z" fill="#FF6B4A" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+<path d="M118 207c-19 16-26 31-30 49" stroke="#F2C14E" stroke-width="8" stroke-linecap="round"/>
+<path d="M55 204c45-18 80-45 104-84" fill="none" stroke="#0B332B" stroke-width="6" stroke-linecap="round"/>
+<path d="M159 120l-5 35 30-17" fill="none" stroke="#0B332B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="55" cy="204" r="7" fill="#00BFC2"/><circle cx="99" cy="178" r="7" fill="#00BFC2"/><circle cx="159" cy="120" r="7" fill="#00BFC2"/>
+<rect x="42" y="80" width="74" height="72" rx="8" fill="#FFFFFF" stroke="#111111" stroke-width="4"/><path d="M57 102h42M57 122h28M57 140h46" stroke="#1E5F4E" stroke-width="4" stroke-linecap="round"/>
+<rect x="198" y="198" width="58" height="48" rx="7" fill="#F2C14E" stroke="#111111" stroke-width="4"/><path d="M211 217h28M211 233h20" stroke="#0B332B" stroke-width="4" stroke-linecap="round"/>
+</svg>

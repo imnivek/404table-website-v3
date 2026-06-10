@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+<defs><linearGradient id="g" x1="0" y1="450" x2="600" y2="0"><stop stop-color="#D8A332"/><stop offset="1" stop-color="#F2C14E"/></linearGradient></defs>
+<rect width="600" height="450" fill="url(#g)"/>
+<polygon points="36,62 214,22 250,156 52,202" fill="#0B332B"/><polygon points="366,44 578,83 528,228 326,183" fill="#EFE3D1"/>
+<rect x="84" y="136" width="174" height="218" rx="16" fill="#F6F3EB" stroke="#111111" stroke-width="6"/>
+<rect x="112" y="166" width="118" height="42" fill="#1E5F4E"/><circle cx="123" cy="249" r="12" fill="#2F8062"/><circle cx="172" cy="249" r="12" fill="#2F8062"/><circle cx="221" cy="249" r="12" fill="#FF6B4A"/>
+<circle cx="123" cy="296" r="12" fill="#F2C14E"/><circle cx="172" cy="296" r="12" fill="#F2C14E"/><circle cx="221" cy="296" r="12" fill="#F2C14E"/>
+<rect x="322" y="151" width="170" height="112" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<path d="M346 230l43-38 36 18 44-49" fill="none" stroke="#00BFC2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M473 161l-3 38 35-12" fill="none" stroke="#00BFC2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="380" cy="333" rx="52" ry="15" fill="#D8A332" stroke="#111111" stroke-width="5"/><rect x="328" y="299" width="104" height="35" fill="#F2C14E" stroke="#111111" stroke-width="5"/><ellipse cx="380" cy="299" rx="52" ry="15" fill="#F2C14E" stroke="#111111" stroke-width="5"/>
+<ellipse cx="466" cy="350" rx="48" ry="14" fill="#D8A332" stroke="#111111" stroke-width="5"/><rect x="418" y="321" width="96" height="29" fill="#F2C14E" stroke="#111111" stroke-width="5"/><ellipse cx="466" cy="321" rx="48" ry="14" fill="#F2C14E" stroke="#111111" stroke-width="5"/>
+<path d="M303 93c32-16 72-15 101 4" fill="none" stroke="#0B332B" stroke-width="5" stroke-dasharray="8 9" stroke-linecap="round"/>
+<g fill="#0B332B" opacity=".75"><circle cx="530" cy="279" r="4"/><circle cx="552" cy="301" r="4"/><circle cx="519" cy="325" r="4"/><circle cx="548" cy="351" r="4"/></g>
+</svg>

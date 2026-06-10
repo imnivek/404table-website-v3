@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <polygon points="52,36 171,24 205,111 72,139" fill="#EFE3D1" opacity=".75"/>
+  <polygon points="33,129 91,118 101,158 42,171" fill="#F6F3EB"/>
+  <path d="M34 98c25-28 66-40 108-31 27 6 48 20 63 42" fill="none" stroke="#00BFC2" stroke-width="3" stroke-dasharray="6 8" stroke-linecap="round"/>
+  <circle cx="126" cy="90" r="42" fill="#F2C14E"/>
+  <path d="M105 90l14 14 29-37" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="52" y="57" width="55" height="58" rx="8" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <path d="M52 74h55" stroke="#111111" stroke-width="4"/><path d="M66 53v12M93 53v12" stroke="#1E5F4E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M67 92l8 8 17-21" fill="none" stroke="#2F8062" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M159 65c0-16 12-27 27-27s27 11 27 27c0 21-27 45-27 45s-27-24-27-45z" fill="#FF6B4A" stroke="#111111" stroke-width="4"/>
+  <circle cx="186" cy="65" r="9" fill="#FFFFFF"/>
+  <path d="M82 147h49M93 147v-20h27v20M164 148v-23h29v23M154 148h49" fill="none" stroke="#0B332B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M97 127l10-12 10 12" fill="none" stroke="#0B332B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#00BFC2"><circle cx="37" cy="93" r="3"/><circle cx="144" cy="53" r="3"/><circle cx="209" cy="110" r="3"/></g>
+  <polygon points="40,41 70,34 66,58 35,64" fill="#F2C14E" opacity=".9"/>
+</svg>

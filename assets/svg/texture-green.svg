@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="v" cx="50%" cy="50%" r="72%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".025"/>
+      <stop offset=".72" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".12"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="#0B332B"/>
+  <g fill="#FFFFFF" opacity=".04">
+    <circle cx="18" cy="18" r="1.4"/><circle cx="58" cy="18" r="1.4"/><circle cx="98" cy="18" r="1.4"/><circle cx="138" cy="18" r="1.4"/><circle cx="178" cy="18" r="1.4"/>
+    <circle cx="38" cy="58" r="1.4"/><circle cx="78" cy="58" r="1.4"/><circle cx="118" cy="58" r="1.4"/><circle cx="158" cy="58" r="1.4"/><circle cx="198" cy="58" r="1.4"/>
+    <circle cx="18" cy="98" r="1.4"/><circle cx="58" cy="98" r="1.4"/><circle cx="98" cy="98" r="1.4"/><circle cx="138" cy="98" r="1.4"/><circle cx="178" cy="98" r="1.4"/>
+    <circle cx="38" cy="138" r="1.4"/><circle cx="78" cy="138" r="1.4"/><circle cx="118" cy="138" r="1.4"/><circle cx="158" cy="138" r="1.4"/><circle cx="198" cy="138" r="1.4"/>
+    <circle cx="18" cy="178" r="1.4"/><circle cx="58" cy="178" r="1.4"/><circle cx="98" cy="178" r="1.4"/><circle cx="138" cy="178" r="1.4"/><circle cx="178" cy="178" r="1.4"/>
+  </g>
+  <g fill="#00BFC2" opacity=".03">
+    <circle cx="30" cy="42" r="2.2"/><circle cx="124" cy="30" r="1.8"/><circle cx="172" cy="77" r="2.5"/>
+    <circle cx="62" cy="126" r="2.1"/><circle cx="144" cy="158" r="2.4"/><circle cx="190" cy="188" r="1.9"/>
+  </g>
+  <rect width="200" height="200" fill="url(#v)"/>
+</svg>
