@@ -176,6 +176,7 @@ section{position:relative}
 
 /* Hero collage visual */
 .hero-visual{position:relative;height:540px}
+.hv-440{height:440px}
 .hc-card{position:absolute;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(17,17,17,.08)}
 .hc-1{left:0;top:30px;width:64%;height:64%;transform:rotate(-3deg)}
 .hc-1 img{width:100%;height:100%;object-fit:cover}
@@ -348,6 +349,7 @@ details.unit[open] > summary .chev{transform:rotate(180deg)}
    09 ｜ Feature split（Founders / Voices / Kids parent…）
    ========================================================= */
 .feature-split{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.fs-wide{grid-template-columns:1.6fr 1fr}
 .feature-split.flip .fs-media{order:-1}
 .fs-media{position:relative}
 .fs-frame{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(17,17,17,.08);transform:rotate(-2deg)}
@@ -831,11 +833,15 @@ details.unit[open] > summary .chev{transform:rotate(180deg)}
   .course-results{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:680px){
-  .founder-carousel{height:430px}
-  .founder{width:228px;margin-left:-114px}
+  .founder-carousel{height:416px}
+  .founder{width:214px;margin-left:-107px}
+  .founder h4{font-size:18px}
+  .founder .body{padding:16px 16px 18px}
   .fc-btn{width:46px;height:46px}
   .course-results{grid-template-columns:1fr}
-  .course-toolbar{flex-direction:column;align-items:flex-start}
+  .course-toolbar{flex-direction:column;align-items:stretch;gap:10px}
+  .sort-wrap{justify-content:space-between}
+  .sort-wrap select{flex:1}
 }
 
 /* =========================================================
@@ -869,4 +875,37 @@ details.unit[open] > summary .chev{transform:rotate(180deg)}
   .navbar{padding:12px 20px}
   .accent-panel{padding:32px 24px}
   .modal-header,.modal-body{padding-left:22px;padding-right:22px}
+  /* Hero 拼貼：縮字級、收掉外溢的裝飾，避免手機破版 */
+  .hero{padding:36px 0 44px}
+  .hero-grid{gap:28px}
+  .hero-visual{height:336px;margin-top:4px}
+  .hc-2{padding:16px}
+  .hc-2 h3{font-size:15px;line-height:1.35}
+  .hc-2 .tag{font-size:10px}
+  .hc-2 .stat{font-size:30px}
+  .hc-4{padding:12px 14px}
+  .hc-4 .row{font-size:12.5px}
+  .hc-4 .row + .row{font-size:11.5px}
+  .hc-shape.s1,.hc-shape.s3,.hc-tech{display:none}
+  .hc-shape.s2{width:108px;height:108px;right:-16px;bottom:-16px}
+  .hero-meta{gap:22px 30px;margin-top:30px}
+  .hero-meta .item .num{font-size:26px}
+  .section-header{margin-bottom:34px}
+  .event-feature .ph img{height:300px}
+  .cta-3{gap:12px}
+  .cta-ghost{display:none}
+}
+/* 極小手機（≤460px）細修 */
+@media (max-width:460px){
+  .sec{padding:46px 0}
+  .container{padding:0 16px}
+  .hero-copy h1{font-size:33px}
+  .page-hero h1{font-size:30px}
+  .hero-visual{height:300px}
+  .hc-2 h3{font-size:13.5px}
+  .hc-2 .stat{font-size:26px}
+  .founder-carousel{height:392px}
+  .founder{width:196px;margin-left:-98px}
+  .btn{padding:12px 18px;font-size:14.5px}
+  .accent-panel{padding:28px 20px}
 }
